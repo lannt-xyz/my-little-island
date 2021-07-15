@@ -1,7 +1,214 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <activity acttype="concentration" version="1.0" client="Longman" oae-label="ACTIVITY TYPE: Concentration">
-  <!-- Instructions: The instructions text appears in the drop-down help window. The instructions audio file should match the instructions text. -->
-  <!-- Level: Please select the level to indicate the color on the back of the cards. -->
-  <color_mode oae-label="Level" oae-type="select" value="level_1" opt1="level_1" opt2="level_2" opt3="level_3"></color_mode>
-  <!-- Background Reward Image: This will be revealed as all of the cards are flipped. -->
+
+	<!-- Instructions: The instructions text appears in the drop-down help window. The instructions audio file should match the instructions text. -->
+
+	<instructions oae-label="Instructions text" oae-type="textarea" oae-rows="3">
+		<![CDATA[<p>Look and listen. Match.</p>]]>
+	</instructions>
+	<instructions_audio oae-label="Instructions audio (.mp3)" oae-type="input" oae-rows="1">
+		<![CDATA[mli_dl_concentration.mp3]]>
+	</instructions_audio>
+
+	<!-- Level: Please select the level to indicate the color on the back of the cards. -->
+
+	<color_mode oae-label="Level" oae-type="select" value="level_1" opt1="level_1" opt2="level_2" opt3="level_3">
+</color_mode>
+
+	<!-- Background Reward Image: This will be revealed as all of the cards are flipped. -->
+
+	<background_image oae-label="Background graphic file name" oae-type="input" oae-rows="1">
+		<![CDATA[l1_u5_concentration_kimmyplaytime.png]]>
+	</background_image>
+	<matches>
+		<match oae-label="Match 1">
+
+			<!-- Assign an audio file to each card. Assign either a graphic OR text to each card (not both). Include extension in audio and image filenames (.mp3 or .png) -->
+
+			<item oae-label="Card 1">
+				<audio oae-label="Audio file name" oae-type="input" oae-rows="1">
+					<![CDATA[i_have_a_ball.mp3]]>
+				</audio>
+				<graphic oae-label="Graphic file name" oae-type="input" oae-rows="1">
+					<![CDATA[l1_u5_concentration_ball.png]]>
+				</graphic>
+				<text oae-label="Text (if applicable)" oae-type="textarea" oae-rows="2">
+					<![CDATA[]]>
+				</text>
+				<prodnotes oae-label="Production notes">
+					<![CDATA[]]>
+				</prodnotes>
+			</item>
+			<item oae-label="Card 2">
+				<audio oae-label="Audio file name" oae-type="input" oae-rows="1">
+					<![CDATA[i_have_a_ball.mp3]]>
+				</audio>
+				<graphic oae-label="Graphic file name" oae-type="input" oae-rows="1">
+					<![CDATA[l1_u5_concentration_ball.png]]>
+				</graphic>
+				<text oae-label="Text (if applicable)" oae-type="textarea" oae-rows="2">
+					<![CDATA[]]>
+				</text>
+				<prodnotes oae-label="Production notes">
+					<![CDATA[]]>
+				</prodnotes>
+			</item>
+		</match>
+		<match oae-label="Match 2">
+			<item oae-label="Card 1">
+				<audio oae-label="Audio file name" oae-type="input" oae-rows="1">
+					<![CDATA[i_have_a_doll.mp3]]>
+				</audio>
+				<graphic oae-label="Graphic file name" oae-type="input" oae-rows="1">
+					<![CDATA[l1_u5_concentration_doll.png]]>
+				</graphic>
+				<text oae-label="Text (if applicable)" oae-type="textarea" oae-rows="2">
+					<![CDATA[]]>
+				</text>
+				<prodnotes oae-label="Production notes">
+					<![CDATA[]]>
+				</prodnotes>
+			</item>
+			<item oae-label="Card 2">
+				<audio oae-label="Audio file name" oae-type="input" oae-rows="1">
+					<![CDATA[i_have_a_doll.mp3]]>
+				</audio>
+				<graphic oae-label="Graphic file name" oae-type="input" oae-rows="1">
+					<![CDATA[l1_u5_concentration_doll.png]]>
+				</graphic>
+				<text oae-label="Text (if applicable)" oae-type="textarea" oae-rows="2">
+					<![CDATA[]]>
+				</text>
+				<prodnotes oae-label="Production notes">
+					<![CDATA[]]>
+				</prodnotes>
+			</item>
+		</match>
+		<match oae-label="Match 3">
+			<item oae-label="Card 1">
+				<audio oae-label="Audio file name" oae-type="input" oae-rows="1">
+					<![CDATA[i_have_a_puzzle.mp3]]>
+				</audio>
+				<graphic oae-label="Graphic file name" oae-type="input" oae-rows="1">
+					<![CDATA[l1_u5_concentration_puzzle.png]]>
+				</graphic>
+				<text oae-label="Text (if applicable)" oae-type="textarea" oae-rows="2">
+					<![CDATA[]]>
+				</text>
+				<prodnotes oae-label="Production notes">
+					<![CDATA[]]>
+				</prodnotes>
+			</item>
+			<item oae-label="Card 2">
+				<audio oae-label="Audio file name" oae-type="input" oae-rows="1">
+					<![CDATA[i_have_a_puzzle.mp3]]>
+				</audio>
+				<graphic oae-label="Graphic file name" oae-type="input" oae-rows="1">
+					<![CDATA[l1_u5_concentration_puzzle.png]]>
+				</graphic>
+				<text oae-label="Text (if applicable)" oae-type="textarea" oae-rows="2">
+					<![CDATA[]]>
+				</text>
+				<prodnotes oae-label="Production notes">
+					<![CDATA[]]>
+				</prodnotes>
+			</item>
+		</match>
+
+		<!-- Add a 4th match for Level 2 and Level 3 only. -->
+
+		<match oae-label="Match 4">
+			<item oae-label="Card 1">
+				<audio oae-label="Audio file name" oae-type="input" oae-rows="1">
+					<![CDATA[]]>
+				</audio>
+				<graphic oae-label="Graphic file name" oae-type="input" oae-rows="1">
+					<![CDATA[]]>
+				</graphic>
+				<text oae-label="Text (if applicable)" oae-type="textarea" oae-rows="2">
+					<![CDATA[]]>
+				</text>
+				<prodnotes oae-label="Production notes">
+					<![CDATA[]]>
+				</prodnotes>
+			</item>
+			<item oae-label="Card 2">
+				<audio oae-label="Audio file name" oae-type="input" oae-rows="1">
+					<![CDATA[]]>
+				</audio>
+				<graphic oae-label="Graphic file name" oae-type="input" oae-rows="1">
+					<![CDATA[]]>
+				</graphic>
+				<text oae-label="Text (if applicable)" oae-type="textarea" oae-rows="2">
+					<![CDATA[]]>
+				</text>
+				<prodnotes oae-label="Production notes">
+					<![CDATA[]]>
+				</prodnotes>
+			</item>
+		</match>
+
+		<!-- Add a 5th and 6th match for Level 3 only. -->
+
+		<match oae-label="Match 5">
+			<item oae-label="Card 1">
+				<audio oae-label="Audio file name" oae-type="input" oae-rows="1">
+					<![CDATA[]]>
+				</audio>
+				<graphic oae-label="Graphic file name" oae-type="input" oae-rows="1">
+					<![CDATA[]]>
+				</graphic>
+				<text oae-label="Text (if applicable)" oae-type="textarea" oae-rows="2">
+					<![CDATA[]]>
+				</text>
+				<prodnotes oae-label="Production notes">
+					<![CDATA[]]>
+				</prodnotes>
+			</item>
+			<item oae-label="Card 2">
+				<audio oae-label="Audio file name" oae-type="input" oae-rows="1">
+					<![CDATA[]]>
+				</audio>
+				<graphic oae-label="Graphic file name" oae-type="input" oae-rows="1">
+					<![CDATA[]]>
+				</graphic>
+				<text oae-label="Text (if applicable)" oae-type="textarea" oae-rows="2">
+					<![CDATA[]]>
+				</text>
+				<prodnotes oae-label="Production notes">
+					<![CDATA[]]>
+				</prodnotes>
+			</item>
+		</match>
+		<match oae-label="Match 6">
+			<item oae-label="Card 1">
+				<audio oae-label="Audio file name" oae-type="input" oae-rows="1">
+					<![CDATA[]]>
+				</audio>
+				<graphic oae-label="Graphic file name" oae-type="input" oae-rows="1">
+					<![CDATA[]]>
+				</graphic>
+				<text oae-label="Text (if applicable)" oae-type="textarea" oae-rows="2">
+					<![CDATA[]]>
+				</text>
+				<prodnotes oae-label="Production notes">
+					<![CDATA[]]>
+				</prodnotes>
+			</item>
+			<item oae-label="Card 2">
+				<audio oae-label="Audio file name" oae-type="input" oae-rows="1">
+					<![CDATA[]]>
+				</audio>
+				<graphic oae-label="Graphic file name" oae-type="input" oae-rows="1">
+					<![CDATA[]]>
+				</graphic>
+				<text oae-label="Text (if applicable)" oae-type="textarea" oae-rows="2">
+					<![CDATA[]]>
+				</text>
+				<prodnotes oae-label="Production notes">
+					<![CDATA[]]>
+				</prodnotes>
+			</item>
+		</match>
+	</matches>
 </activity>

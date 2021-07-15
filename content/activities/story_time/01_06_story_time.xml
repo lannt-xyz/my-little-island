@@ -1,7 +1,76 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <activity acttype="story_time" version="1.0" client="Longman" oae-label="ACTIVITY TYPE: STORYTIME">
-  <!-- Instructions: The instructions text appears in the drop-down help window. The instructions audio file should match the instructions text. -->
-  <instructions oae-label="Instructions text" oae-type="textarea" oae-rows="3"><![CDATA[<p>Look and listen to the story.</p>]]></instructions>
-  <!-- Each "page" or line from the story will highlight at one time. Pick a highlight color. -->
-  <!-- This is the story transcript, broken into cue points per page. Each field contains one unique segment of the story. -->
+
+	<!-- Instructions: The instructions text appears in the drop-down help window. The instructions audio file should match the instructions text. -->
+
+	<instructions oae-label="Instructions text" oae-type="textarea" oae-rows="3">
+		<![CDATA[<p>Look and listen to the story.</p>]]>
+	</instructions>
+	<instructions_audio oae-label="Instructions audio (.mp3)" oae-type="input" oae-rows="1">
+		<![CDATA[mli_dl_storytime.mp3]]>
+	</instructions_audio>
+
+	<!-- Each "page" or line from the story will highlight at one time. Pick a highlight color. -->
+
+	<linehex oae-label="Hex value" oae-type="input" oae-rows="1">
+		<![CDATA[ff6633]]>
+	</linehex>
+
+	<!-- This is the story transcript, broken into cue points per page. Each field contains one unique segment of the story. -->
+
+	<line oae-label="Page #1">
+		<text oae-label="text" oae-type="textarea" oae-rows="1">
+			<![CDATA[<p><b>My Face<br /></b></p>]]>
+		</text>
+		<graphic oae-label="page graphic" oae-type="input" oae-rows="1">
+			<![CDATA[l1_u6_story_frame_t.png]]>
+		</graphic>
+		<audio oae-label="audio file" oae-type="input" oae-rows="1">
+			<![CDATA[l1_u6_storytime_title.mp3]]>
+		</audio>
+	</line>
+	<line oae-label="Page #2">
+		<text oae-label="text" oae-type="textarea" oae-rows="1">
+			<![CDATA[<p><b>Make a face.<br />Okay. Close your eyes.<br /></b></p>]]>
+		</text>
+		<graphic oae-label="page graphic" oae-type="input" oae-rows="1">
+			<![CDATA[l1_u6_story_frame1.png]]>
+		</graphic>
+		<audio oae-label="audio file" oae-type="input" oae-rows="1">
+			<![CDATA[l1_u6_storytime1.mp3]]>
+		</audio>
+	</line>
+	<line oae-label="Page #3">
+		<text oae-label="text" oae-type="textarea" oae-rows="1">
+			<![CDATA[<p><b>1...2...3! <br />Open your eyes! <br />This is my face!<br />Great!<br /></b></p>]]>
+		</text>
+		<graphic oae-label="page graphic" oae-type="input" oae-rows="1">
+			<![CDATA[l1_u6_story_frame2.png]]>
+		</graphic>
+		<audio oae-label="audio file" oae-type="input" oae-rows="1">
+			<![CDATA[l1_u6_storytime2.mp3]]>
+		</audio>
+	</line>
+	<line oae-label="Page #4">
+		<text oae-label="text" oae-type="textarea" oae-rows="1">
+			<![CDATA[<p><b>Wait. Close your eyes.<br /></b></p>]]>
+		</text>
+		<graphic oae-label="page graphic" oae-type="input" oae-rows="1">
+			<![CDATA[l1_u6_story_frame3.png]]>
+		</graphic>
+		<audio oae-label="audio file" oae-type="input" oae-rows="1">
+			<![CDATA[l1_u6_storytime3.mp3]]>
+		</audio>
+	</line>
+	<line oae-label="Page #5">
+		<text oae-label="text" oae-type="textarea" oae-rows="1">
+			<![CDATA[<p><b>Okay. 1...2...3! <br />Open your eyes. Look!<br />It's my hair. It's green!</b></p>]]>
+		</text>
+		<graphic oae-label="page graphic" oae-type="input" oae-rows="1">
+			<![CDATA[l1_u6_story_frame4.png]]>
+		</graphic>
+		<audio oae-label="audio file" oae-type="input" oae-rows="1">
+			<![CDATA[l1_u6_storytime4.mp3]]>
+		</audio>
+	</line>
 </activity>

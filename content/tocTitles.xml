@@ -16,9 +16,18 @@
     <number>4.</number>
     <text>My Room</text>
   </title>
-  <title></title>
-  <title></title>
-  <title></title>
+  <title>
+    <number>5.</number>
+    <text>My Toys</text>
+  </title>
+  <title>
+    <number>6.</number>
+    <text>My Face</text>
+  </title>
+  <title>
+    <number>7.</number>
+    <text>Food</text>
+  </title>
   <title></title>
   <title></title>
   <title>
