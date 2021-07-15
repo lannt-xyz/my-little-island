@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activity acttype="painting" version="1.0" client="Longman" oae-label="ACTIVITY TYPE: Painting">
+  <!-- Instructions: The instructions text appears in the drop-down help window. The instructions audio file should match the instructions text. -->
+  <instructions oae-label="Instructions text" oae-type="input" oae-rows="3"><![CDATA[Look and color.]]></instructions>
+  <!-- Pick up to 10 colors for the paint pallet. Possible colors: red, yellow, blue, green, orange, purple, brown, pink, black, white -->
+  <!-- Add the vector art file for the student to paint in this activity. -->
+  <!-- Add up to 10 questions/coloring instructions for this activity. -->
+</activity>

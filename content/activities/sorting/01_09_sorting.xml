@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activity acttype="sorting" version="1.0" client="Longman" oae-label="ACTIVITY TYPE: Sorting">
+  <!-- Instructions: The instructions text appears in the drop-down help window. The instructions audio file should match the instructions text. -->
+  <instructions oae-label="Instructions text" oae-type="textarea" oae-rows="2"><![CDATA[<p>Look and listen. Put the things you can see outside in the PINK box. Put the things you play with outside in the PURPLE box.</p>]]></instructions>
+  <!-- Default height of bin graphics is 300px. Only change here if needed. -->
+  <!-- Author may select to use 1, 2, or 3 bins. -->
+</activity>

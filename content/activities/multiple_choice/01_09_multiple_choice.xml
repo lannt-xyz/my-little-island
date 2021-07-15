@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activity acttype="multiple_choice" version="1.0" client="Longman" oae-label="ACTIVITY TYPE: multiple_choice">
+  <!-- Instructions: The instructions text appears in the drop-down help window. The instructions audio file should match the instructions text. -->
+  <instructions oae-label="Instructions text" oae-type="textarea" oae-rows="3"><![CDATA[<p>Look and listen. Choose.</p>]]></instructions>
+</activity>

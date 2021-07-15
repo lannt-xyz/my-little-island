@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activity acttype="look_and_find" version="2.0" client="Longman" oae-label="ACTIVITY TYPE: Look and Find">
+  <!-- Instructions: The instructions text appears in the drop-down help window. The instructions audio file should match the instructions text. -->
+  <instructions oae-label="Instructions text" oae-type="textarea" oae-rows="3"><![CDATA[<p>Look and find. Click on each bird you see.</p>]]></instructions>
+  <!-- Object Find Mode: Random find mode allows the student to select hidden objects at random. Find in order mode allows the author to determine an order. Select a mode. -->
+  <!-- Look and Find Image: Objects are hidden in this picture -->
+</activity>

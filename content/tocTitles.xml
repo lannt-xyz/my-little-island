@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<titles>
+  <title>
+    <number>1.</number>
+    <text>Welcome</text>
+  </title>
+  <title>
+    <number>2.</number>
+    <text>My Class</text>
+  </title>
+    <title>
+    <number>3.</number>
+    <text>My Family</text>
+  </title>
+  <title>
+    <number>4.</number>
+    <text>My Room</text>
+  </title>
+  <title></title>
+  <title></title>
+  <title></title>
+  <title></title>
+  <title></title>
+  <title>
+    <number></number>
+    <text>Videos</text>
+  </title>
+</titles>

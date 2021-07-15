@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity acttype="matching" version="2.0" client="Longman" oae-label="ACTIVITY TYPE: Matching">
+
+	<!-- Instructions: The instructions text appears in the drop-down help window. The instructions audio file should match the instructions text. -->
+
+	<instructions oae-label="Instructions text" oae-type="textarea" oae-rows="3">
+		<![CDATA[<p>Listen and match.</p>]]>
+	</instructions>
+	<instructions_audio oae-label="Instructions audio (.mp3)" oae-type="input" oae-rows="1">
+		<![CDATA[mlil_dl_matching.mp3]]>
+	</instructions_audio>
+	<matches>
+		<match oae-label="Match 1">
+
+			<!-- Left side: -->
+
+			<leftaudiofile oae-label="Audio file" oae-type="input" oae-rows="1">
+				<![CDATA[pencil.mp3]]>
+			</leftaudiofile>
+			<leftitem oae-label="Text or graphic file" oae-type="input" oae-rows="2">
+				<![CDATA[matching_sammy.png]]>
+			</leftitem>
+			<prodnotes oae-label="Production notes">
+				<![CDATA[]]>
+			</prodnotes>
+
+			<!-- Right side: -->
+
+			<rightaudiofile oae-label="Audio file" oae-type="input" oae-rows="1">
+				<![CDATA[pencil.mp3]]>
+			</rightaudiofile>
+			<rightitem oae-label="Text or graphic file" oae-type="input" oae-rows="2">
+				<![CDATA[l1_u2_matching_pencil.png]]>
+			</rightitem>
+			<prodnotes oae-label="Production notes">
+				<![CDATA[]]>
+			</prodnotes>
+		</match>
+		<match oae-label="Match 2">
+
+			<!-- Left side: -->
+
+			<leftaudiofile oae-label="Audio file" oae-type="input" oae-rows="1">
+				<![CDATA[table.mp3]]>
+			</leftaudiofile>
+			<leftitem oae-label="Text or graphic file" oae-type="input" oae-rows="2">
+				<![CDATA[matching_sammy.png]]>
+			</leftitem>
+			<prodnotes oae-label="Production notes">
+				<![CDATA[]]>
+			</prodnotes>
+
+			<!-- Right side: -->
+
+			<rightaudiofile oae-label="Audio file" oae-type="input" oae-rows="1">
+				<![CDATA[table.mp3]]>
+			</rightaudiofile>
+			<rightitem oae-label="Text or graphic file" oae-type="input" oae-rows="2">
+				<![CDATA[l1_u2_matching_table.png]]>
+			</rightitem>
+			<prodnotes oae-label="Production notes">
+				<![CDATA[]]>
+			</prodnotes>
+		</match>
+		<match oae-label="Match 3">
+
+			<!-- Left side: -->
+
+			<leftaudiofile oae-label="Audio file" oae-type="input" oae-rows="1">
+				<![CDATA[teacher.mp3]]>
+			</leftaudiofile>
+			<leftitem oae-label="Text or graphic file" oae-type="input" oae-rows="2">
+				<![CDATA[matching_sammy.png]]>
+			</leftitem>
+			<prodnotes oae-label="Production notes">
+				<![CDATA[]]>
+			</prodnotes>
+
+			<!-- Right side: -->
+
+			<rightaudiofile oae-label="Audio file" oae-type="input" oae-rows="1">
+				<![CDATA[teacher.mp3]]>
+			</rightaudiofile>
+			<rightitem oae-label="Text or graphic file" oae-type="input" oae-rows="2">
+				<![CDATA[l1_u2_matching_teacher.png]]>
+			</rightitem>
+			<prodnotes oae-label="Production notes">
+				<![CDATA[]]>
+			</prodnotes>
+		</match>
+
+		<!-- Add a 4th match for Level 2 and Level 3 only. -->
+
+		<match oae-label="Match 4">
+
+			<!-- Left side: -->
+
+			<leftaudiofile oae-label="Audio file" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</leftaudiofile>
+			<leftitem oae-label="Text or graphic file" oae-type="input" oae-rows="2">
+				<![CDATA[]]>
+			</leftitem>
+			<prodnotes oae-label="Production notes">
+				<![CDATA[]]>
+			</prodnotes>
+
+			<!-- Right side: -->
+
+			<rightaudiofile oae-label="Audio file" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</rightaudiofile>
+			<rightitem oae-label="Text or graphic file" oae-type="input" oae-rows="2">
+				<![CDATA[]]>
+			</rightitem>
+			<prodnotes oae-label="Production notes">
+				<![CDATA[]]>
+			</prodnotes>
+		</match>
+
+		<!-- Add a 5th match for Level 3 only. -->
+
+		<match oae-label="Match 5">
+
+			<!-- Left side: -->
+
+			<leftaudiofile oae-label="Audio file" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</leftaudiofile>
+			<leftitem oae-label="Text or graphic file" oae-type="input" oae-rows="2">
+				<![CDATA[]]>
+			</leftitem>
+			<prodnotes oae-label="Production notes">
+				<![CDATA[]]>
+			</prodnotes>
+
+			<!-- Right side: -->
+
+			<rightaudiofile oae-label="Audio file" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</rightaudiofile>
+			<rightitem oae-label="Text or graphic file" oae-type="input" oae-rows="2">
+				<![CDATA[]]>
+			</rightitem>
+			<prodnotes oae-label="Production notes">
+				<![CDATA[]]>
+			</prodnotes>
+		</match>
+	</matches>
+</activity>

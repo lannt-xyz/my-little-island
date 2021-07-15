@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity acttype="multiple_choice" version="1.0" client="Longman" oae-label="ACTIVITY TYPE: multiple_choice">
+
+	<!-- Instructions: The instructions text appears in the drop-down help window. The instructions audio file should match the instructions text. -->
+
+	<instructions oae-label="Instructions text" oae-type="textarea" oae-rows="3">
+		<![CDATA[<p>Look and listen. Choose.</p>]]>
+	</instructions>
+	<instructions_audio oae-label="Instructions audio (.mp3)" oae-type="input" oae-rows="1">
+		<![CDATA[mli_dl_mc.mp3]]>
+	</instructions_audio>
+	<questions>
+		<question oae-label="Question 1">
+
+			<!-- The graphic appears on the left. The maximum dimensions of the graphic are: 260 x 400. -->
+
+			<question_graphic>
+				<![CDATA[l1_u3_mc_q1_sister.png]]>
+			</question_graphic>
+			<question_audio oae-label="Question audio (.mp3)" oae-type="input" oae-rows="1">
+				<![CDATA[l1_u3_mc_sister.mp3]]>
+			</question_audio>
+			<question_text oae-label="Text (if applicable)" oae-type="textarea" oae-rows="3">
+				<![CDATA[]]>
+			</question_text>
+
+			<!-- The three multiple choice answers appear on the right. Answers can be an image file or text. Use .png extension for images. -->
+
+			<correct oae-label="Correct answer">
+				<![CDATA[l1_u3_mc_sisters.png]]>
+			</correct>
+			<answer_audio oae-label="Answer audio (.mp3)" oae-type="input" oae-rows="1">
+				<![CDATA[l1_u3_mc_sister.mp3]]>
+			</answer_audio>
+			<distracters>
+				<distracter>
+					<![CDATA[l1_u3_mc_brothers.png]]>
+				</distracter>
+				<answer_audio oae-label="Answer audio (.mp3)" oae-type="input" oae-rows="1">
+					<![CDATA[l1_u3_mc_brother.mp3]]>
+				</answer_audio>
+				<distracter>
+					<![CDATA[l1_u3_mc_family.png]]>
+				</distracter>
+				<answer_audio oae-label="Answer audio (.mp3)" oae-type="input" oae-rows="1">
+					<![CDATA[l1_u3_mc_family.mp3]]>
+				</answer_audio>
+			</distracters>
+		</question>
+		<question oae-label="Question 2">
+
+			<!-- The graphic appears on the left. The maximum dimensions of the graphic are: 260 x 400. -->
+
+			<question_graphic>
+				<![CDATA[l1_u3_mc_q2_brother.png]]>
+			</question_graphic>
+			<question_audio oae-label="Question audio (.mp3)" oae-type="input" oae-rows="1">
+				<![CDATA[l1_u3_mc_brother.mp3]]>
+			</question_audio>
+			<question_text oae-label="Text (if applicable)" oae-type="textarea" oae-rows="3">
+				<![CDATA[]]>
+			</question_text>
+
+			<!-- The three multiple choice answers appear on the right. Answers can be an image file or text. -->
+
+			<correct oae-label="Correct answer">
+				<![CDATA[l1_u3_mc_brothers.png]]>
+			</correct>
+			<answer_audio oae-label="Answer audio (.mp3)" oae-type="input" oae-rows="1">
+				<![CDATA[l1_u3_mc_brother.mp3]]>
+			</answer_audio>
+			<distracters>
+				<distracter>
+					<![CDATA[l1_u3_mc_sisters.png]]>
+				</distracter>
+				<answer_audio oae-label="Answer audio (.mp3)" oae-type="input" oae-rows="1">
+					<![CDATA[l1_u3_mc_sister.mp3]]>
+				</answer_audio>
+				<distracter>
+					<![CDATA[l1_u3_mc_family.png]]>
+				</distracter>
+				<answer_audio oae-label="Answer audio (.mp3)" oae-type="input" oae-rows="1">
+					<![CDATA[l1_u3_mc_family.mp3]]>
+				</answer_audio>
+			</distracters>
+		</question>
+		<question oae-label="Question 3">
+
+			<!-- The graphic appears on the left. The maximum dimensions of the graphic are: 260 x 400. -->
+
+			<question_graphic>
+				<![CDATA[l1_u3_mc_q3_family.png]]>
+			</question_graphic>
+			<question_audio oae-label="Question audio (.mp3)" oae-type="input" oae-rows="1">
+				<![CDATA[l1_u3_mc_family.mp3]]>
+			</question_audio>
+			<question_text oae-label="Text (if applicable)" oae-type="textarea" oae-rows="3">
+				<![CDATA[]]>
+			</question_text>
+
+			<!-- The three multiple choice answers appear on the right. Answers can be an image file or text. -->
+
+			<correct oae-label="Correct answer">
+				<![CDATA[l1_u3_mc_family.png]]>
+			</correct>
+			<answer_audio oae-label="Answer audio (.mp3)" oae-type="input" oae-rows="1">
+				<![CDATA[l1_u3_mc_family.mp3]]>
+			</answer_audio>
+			<distracters>
+				<distracter>
+					<![CDATA[l1_u3_mc_sisters.png]]>
+				</distracter>
+				<answer_audio oae-label="Answer audio (.mp3)" oae-type="input" oae-rows="1">
+					<![CDATA[l1_u3_mc_sister.mp3]]>
+				</answer_audio>
+				<distracter>
+					<![CDATA[l1_u3_mc_brothers.png]]>
+				</distracter>
+				<answer_audio oae-label="Answer audio (.mp3)" oae-type="input" oae-rows="1">
+					<![CDATA[l1_u3_mc_brother.mp3]]>
+				</answer_audio>
+			</distracters>
+		</question>
+		<question oae-label="Question 4">
+
+			<!-- The graphic appears on the left. The maximum dimensions of the graphic are: 260 x 400. -->
+
+			<question_graphic>
+				<![CDATA[]]>
+			</question_graphic>
+			<text oae-label="Text (if applicable)" oae-type="textarea" oae-rows="3">
+				<![CDATA[]]>
+			</text>
+
+			<!-- The three multiple choice answers appear on the right. Answers can be an image file or text. -->
+
+			<correct oae-label="Correct answer">
+				<![CDATA[]]>
+			</correct>
+			<answer_audio oae-label="Answer audio (.mp3)" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</answer_audio>
+			<distracters>
+				<distracter>
+					<![CDATA[]]>
+				</distracter>
+				<answer_audio oae-label="Answer audio (.mp3)" oae-type="input" oae-rows="1">
+					<![CDATA[]]>
+				</answer_audio>
+				<distracter>
+					<![CDATA[]]>
+				</distracter>
+				<answer_audio oae-label="Answer audio (.mp3)" oae-type="input" oae-rows="1">
+					<![CDATA[]]>
+				</answer_audio>
+			</distracters>
+		</question>
+		<question oae-label="Question 5">
+
+			<!-- The graphic appears on the left. The maximum dimensions of the graphic are: 260 x 400. -->
+
+			<question_graphic>
+				<![CDATA[]]>
+			</question_graphic>
+			<text oae-label="Text (if applicable)" oae-type="textarea" oae-rows="3">
+				<![CDATA[]]>
+			</text>
+
+			<!-- The three multiple choice answers appear on the right. Answers can be an image file or text. -->
+
+			<correct oae-label="Correct answer">
+				<![CDATA[]]>
+			</correct>
+			<answer_audio oae-label="Answer audio (.mp3)" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</answer_audio>
+			<distracters>
+				<distracter>
+					<![CDATA[]]>
+				</distracter>
+				<answer_audio oae-label="Answer audio (.mp3)" oae-type="input" oae-rows="1">
+					<![CDATA[]]>
+				</answer_audio>
+				<distracter>
+					<![CDATA[]]>
+				</distracter>
+				<answer_audio oae-label="Answer audio (.mp3)" oae-type="input" oae-rows="1">
+					<![CDATA[]]>
+				</answer_audio>
+			</distracters>
+		</question>
+	</questions>
+</activity>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity acttype="sorting" version="1.0" client="Longman" oae-label="ACTIVITY TYPE: Sorting">
+
+	<!-- Instructions: The instructions text appears in the drop-down help window. The instructions audio file should match the instructions text. -->
+
+	<instructions oae-label="Instructions text" oae-type="textarea" oae-rows="2">
+		<![CDATA[<p>Look and listen. Put the things that are in the classroom in the RED box. Put the things that are at the park in the GREEN box.</p>]]>
+	</instructions>
+	<instructions_audio oae-label="Instructions audio (.mp3)" oae-type="input" oae-rows="1">
+		<![CDATA[l1_u2_sorting_dl.mp3]]>
+	</instructions_audio>
+
+	<!-- Default height of bin graphics is 300px. Only change here if needed. -->
+
+	<bin_height oae-label="Height of the bin graphics" oae-type="input" oae-rows="1">
+		<![CDATA[]]>
+	</bin_height>
+
+	<!-- Author may select to use 1, 2, or 3 bins. -->
+
+	<bins>
+		<bin oae-label="Bin 1">
+			<header oae-label="Background file name" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</header>
+
+			<!-- Color of the bin border -->
+
+			<bin_border_color oae-label="Bin border color" oae-type="input" oae-rows="1">
+				<![CDATA[FF0000]]>
+			</bin_border_color>
+
+			<!-- List draggable items here. Please use the .png extension for images. -->
+
+			<items>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[l1_u2_sorting_book.png]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[book.mp3]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[l1_u2_sorting_pencil.png]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[pencil.mp3]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[l1_u2_sorting_table.png]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[table.mp3]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[l1_u2_sorting_teacher.png]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[teacher.mp3]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</audio>
+				</item>
+			</items>
+		</bin>
+
+		<!-- List draggable items here. Please use the .png extension for images. -->
+
+		<bin oae-label="Bin 2">
+			<header oae-label="Background file name" oae-type="input" oae-rows="1">
+				<![CDATA[sorting_greenbin.png]]>
+			</header>
+
+			<!-- Color of the bin border -->
+
+			<bin_border_color oae-label="Bin border color" oae-type="input" oae-rows="1">
+				<![CDATA[00C000]]>
+			</bin_border_color>
+			<items>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[l1_u2_sorting_tree.png]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[tree.mp3]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[l1_u2_sorting_slidingboard.png]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[slide.mp3]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[l1_u2_sorting_grass.png]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[grass.mp3]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[l1_u2_sorting_flower.png]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[flower.mp3]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</audio>
+				</item>
+			</items>
+		</bin>
+
+		<!-- List draggable items here. Please use the .png extension for images. -->
+
+		<bin oae-label="Bin 3">
+			<header oae-label="Background file name" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</header>
+
+			<!-- Color of the bin border -->
+
+			<bin_border_color oae-label="Bin border color" oae-type="input" oae-rows="1">
+				<![CDATA[#000000]]>
+			</bin_border_color>
+			<items>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</audio>
+				</item>
+				<item oae-label="File name of draggable" oae-type="input" oae-rows="1">
+					<image oae-label="File name of draggable image" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</image>
+					<audio oae-label="File name of draggable audio" oae-type="input" oae-rows="1">
+						<![CDATA[]]>
+					</audio>
+				</item>
+			</items>
+		</bin>
+	</bins>
+</activity>

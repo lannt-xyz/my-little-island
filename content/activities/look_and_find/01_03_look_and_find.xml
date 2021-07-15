@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity acttype="look_and_find" version="2.0" client="Longman" oae-label="ACTIVITY TYPE: Look and Find">
+
+	<!-- Instructions: The instructions text appears in the drop-down help window. The instructions audio file should match the instructions text. -->
+
+	<instructions oae-label="Instructions text" oae-type="textarea" oae-rows="3">
+		<![CDATA[<p>Look and find. Click on each boat you see.</p>]]>
+	</instructions>
+	<instructions_audio oae-label="Instructions audio (.mp3)" oae-type="input" oae-rows="1">
+		<![CDATA[l1_u3_lookandfind.mp3]]>
+	</instructions_audio>
+
+	<!-- Object Find Mode: Random find mode allows the student to select hidden objects at random. Find in order mode allows the author to determine an order. Select a mode. -->
+
+	<playback_mode oae-label="Object Find Mode" oae-type="select" value="random_find" opt1="random_find" opt2="find_in_order">
+</playback_mode>
+
+	<!-- Look and Find Image: Objects are hidden in this picture -->
+
+	<background_image oae-label="Look and Find graphic file name" oae-type="input" oae-rows="1">
+		<![CDATA[l1_u3_lookfind.png]]>
+	</background_image>
+	<targets>
+		<target oae-label="Target 1">
+
+			<!-- Add an audio file for "Find In Order" mode only. -->
+
+			<audio oae-label="Audio file name" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</audio>
+			<target_x oae-label="Target X Coordinate" oae-type="input" oae-rows="1">
+				<![CDATA[5]]>
+			</target_x>
+			<target_y oae-label="Target Y Coordinate" oae-type="input" oae-rows="1">
+				<![CDATA[137]]>
+			</target_y>
+			<target_height oae-label="Target height (pixels)" oae-type="input" oae-rows="1">
+				<![CDATA[60]]>
+			</target_height>
+			<target_width oae-label="Target width (pixels)" oae-type="input" oae-rows="1">
+				<![CDATA[60]]>
+			</target_width>
+		</target>
+		<target oae-label="Target 2">
+
+			<!-- Add an audio file for "Find In Order" mode only. -->
+
+			<audio oae-label="Audio file name" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</audio>
+			<target_x oae-label="Target X Coordinate" oae-type="input" oae-rows="1">
+				<![CDATA[118]]>
+			</target_x>
+			<target_y oae-label="Target Y Coordinate" oae-type="input" oae-rows="1">
+				<![CDATA[319]]>
+			</target_y>
+			<target_height oae-label="Target height (pixels)" oae-type="input" oae-rows="1">
+				<![CDATA[65]]>
+			</target_height>
+			<target_width oae-label="Target width (pixels)" oae-type="input" oae-rows="1">
+				<![CDATA[65]]>
+			</target_width>
+		</target>
+		<target oae-label="Target 3">
+
+			<!-- Add an audio file for "Find In Order" mode only. -->
+
+			<audio oae-label="Audio file name" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</audio>
+			<target_x oae-label="Target X Coordinate" oae-type="input" oae-rows="1">
+				<![CDATA[494]]>
+			</target_x>
+			<target_y oae-label="Target Y Coordinate" oae-type="input" oae-rows="1">
+				<![CDATA[208]]>
+			</target_y>
+			<target_height oae-label="Target height (pixels)" oae-type="input" oae-rows="1">
+				<![CDATA[60]]>
+			</target_height>
+			<target_width oae-label="Target width (pixels)" oae-type="input" oae-rows="1">
+				<![CDATA[62]]>
+			</target_width>
+		</target>
+		<target oae-label="Target 4">
+
+			<!-- Add an audio file for "Find In Order" mode only. -->
+
+			<audio oae-label="Audio file name" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</audio>
+			<target_x oae-label="Target X Coordinate" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</target_x>
+			<target_y oae-label="Target Y Coordinate" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</target_y>
+			<target_height oae-label="Target height (pixels)" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</target_height>
+			<target_width oae-label="Target width (pixels)" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</target_width>
+		</target>
+		<target oae-label="Target 5">
+
+			<!-- Add an audio file for "Find In Order" mode only. -->
+
+			<audio oae-label="Audio file name" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</audio>
+			<target_x oae-label="Target X Coordinate" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</target_x>
+			<target_y oae-label="Target Y Coordinate" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</target_y>
+			<target_height oae-label="Target height (pixels)" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</target_height>
+			<target_width oae-label="Target width (pixels)" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</target_width>
+		</target>
+	</targets>
+</activity>

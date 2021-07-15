@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity acttype="video" version="1.0" client="Longman" oae-label="ACTIVITY TYPE: Video">
+
+	<!-- Enter info about the video here. Videos should be sized at 560 x 315 pixels. -->
+
+	<title oae-label="Video tile" oae-type="input" oae-rows="1">
+		<![CDATA[Welcome]]>
+	</title>
+	<video oae-label="Video Filename (flv)" oae-type="input" oae-rows="1">
+		<![CDATA[mli_welcome.flv]]>
+	</video>
+</activity>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activity acttype="story_time" version="1.0" client="Longman" oae-label="ACTIVITY TYPE: STORYTIME">
+  <!-- Instructions: The instructions text appears in the drop-down help window. The instructions audio file should match the instructions text. -->
+  <instructions oae-label="Instructions text" oae-type="textarea" oae-rows="3"><![CDATA[<p>Look and listen to the story.</p>]]></instructions>
+  <!-- Each "page" or line from the story will highlight at one time. Pick a highlight color. -->
+  <!-- This is the story transcript, broken into cue points per page. Each field contains one unique segment of the story. -->
+</activity>

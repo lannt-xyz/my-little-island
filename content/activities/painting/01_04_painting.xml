@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity acttype="painting" version="1.0" client="Longman" oae-label="ACTIVITY TYPE: Painting">
+
+	<!-- Instructions: The instructions text appears in the drop-down help window. The instructions audio file should match the instructions text. -->
+
+	<instructions oae-label="Instructions text" oae-type="input" oae-rows="3">
+		<![CDATA[Look and color.]]>
+	</instructions>
+	<instructions_audio oae-label="Instructions audio (.mp3)" oae-type="input" oae-rows="1">
+		<![CDATA[mli_dl_painting.mp3]]>
+	</instructions_audio>
+
+	<!-- Pick up to 10 colors for the paint pallet. Possible colors: red, yellow, blue, green, orange, purple, brown, pink, black, white -->
+
+	<colors oae-label="Colors">
+		<color oae-label="Color 1" oae-type="input" oae-rows="1">
+			<name oae-label="Color name" oae-type="input" oae-rows="1">
+				<![CDATA[Green]]>
+			</name>
+			<hex oae-label="Hex value" oae-type="input" oae-rows="1">
+				<![CDATA[00FF00]]>
+			</hex>
+		</color>
+		<color oae-label="Color 2" oae-type="input" oae-rows="1">
+			<name oae-label="Color name" oae-type="input" oae-rows="1">
+				<![CDATA[Blue]]>
+			</name>
+			<hex oae-label="Hex value" oae-type="input" oae-rows="1">
+				<![CDATA[0000FF]]>
+			</hex>
+		</color>
+		<color oae-label="Color 3" oae-type="input" oae-rows="1">
+			<name oae-label="Color name" oae-type="input" oae-rows="1">
+				<![CDATA[Red]]>
+			</name>
+			<hex oae-label="Hex value" oae-type="input" oae-rows="1">
+				<![CDATA[FF0000]]>
+			</hex>
+		</color>
+
+		<!-- Add a 4th color for Levels 2 and 3 only. -->
+
+		<color oae-label="Color 4" oae-type="input" oae-rows="1">
+			<name oae-label="Color name" oae-type="input" oae-rows="1">
+				<![CDATA[Yellow]]>
+			</name>
+			<hex oae-label="Hex value" oae-type="input" oae-rows="1">
+				<![CDATA[FFFF00]]>
+			</hex>
+		</color>
+
+		<!-- Add a 5th color for Level 3 only. -->
+
+		<color oae-label="Color 5" oae-type="input" oae-rows="1">
+			<name oae-label="Color name" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</name>
+			<hex oae-label="Hex value" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</hex>
+		</color>
+
+		<!-- Additional colors (up to 10) -->
+
+		<color oae-label="Color 6" oae-type="input" oae-rows="1">
+			<name oae-label="Color name" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</name>
+			<hex oae-label="Hex value" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</hex>
+		</color>
+		<color oae-label="Color 7" oae-type="input" oae-rows="1">
+			<name oae-label="Color name" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</name>
+			<hex oae-label="Hex value" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</hex>
+		</color>
+		<color oae-label="Color 8" oae-type="input" oae-rows="1">
+			<name oae-label="Color name" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</name>
+			<hex oae-label="Hex value" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</hex>
+		</color>
+		<color oae-label="Color 9" oae-type="input" oae-rows="1">
+			<name oae-label="Color name" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</name>
+			<hex oae-label="Hex value" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</hex>
+		</color>
+		<color oae-label="Color 10" oae-type="input" oae-rows="1">
+			<name oae-label="Color name" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</name>
+			<hex oae-label="Hex value" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</hex>
+		</color>
+	</colors>
+
+	<!-- Add the vector art file for the student to paint in this activity. -->
+
+	<file oae-label="Background art file name (swf)" oae-type="input" oae-rows="1">
+		<![CDATA[l1_u4_painting.swf]]>
+	</file>
+	<prodnotes oae-label="Production notes">
+		<![CDATA[Black line image of square, triangle, and house]]>
+	</prodnotes>
+
+	<!-- Add up to 10 questions/coloring instructions for this activity. -->
+
+	<questions oae-label="Questions">
+		<question oae-label="question 1">
+			<color oae-label="Color (from above)" oae-type="input" oae-rows="1">
+				<![CDATA[Green]]>
+			</color>
+			<audio oae-label="Question 1 Audio file" oae-type="input" oae-rows="1">
+				<![CDATA[l1_u4_painting_square.mp3]]>
+			</audio>
+			<clip oae-label="Instance Name(VPG)" oae-type="input" oae-rows="1">
+				<![CDATA[Green1]]>
+			</clip>
+		</question>
+		<question oae-label="question 2">
+			<color oae-label="Color (from above)" oae-type="input" oae-rows="1">
+				<![CDATA[Blue]]>
+			</color>
+			<audio oae-label="Question 2 Audio file" oae-type="input" oae-rows="1">
+				<![CDATA[l1_u4_painting_triangle.mp3]]>
+			</audio>
+			<clip oae-label="Instance Name(VPG)" oae-type="input" oae-rows="1">
+				<![CDATA[Blue]]>
+			</clip>
+		</question>
+		<question oae-label="question 3">
+			<color oae-label="Color (from above)" oae-type="input" oae-rows="1">
+				<![CDATA[Green]]>
+			</color>
+			<audio oae-label="Question 3 Audio file" oae-type="input" oae-rows="1">
+				<![CDATA[l1_u4_painting_house.mp3]]>
+			</audio>
+			<clip oae-label="Instance Name(VPG)" oae-type="input" oae-rows="1">
+				<![CDATA[Green2]]>
+			</clip>
+		</question>
+
+		<!-- Add a 4th question for Levels 2 and 3 only. -->
+
+		<question oae-label="question 4">
+			<color oae-label="Color (from above)" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</color>
+			<audio oae-label="Question 4 Audio file" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</audio>
+			<clip oae-label="Instance Name(VPG)" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</clip>
+		</question>
+
+		<!-- Add a 5th question for Level 3 only. -->
+
+		<question oae-label="question 5">
+			<color oae-label="Color (from above)" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</color>
+			<audio oae-label="Question 5 Audio file" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</audio>
+			<clip oae-label="Instance Name(VPG)" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</clip>
+		</question>
+
+		<!-- Additional questions (up to 10) -->
+
+		<question oae-label="question 6">
+			<color oae-label="Color (from above)" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</color>
+			<audio oae-label="Question 6 Audio file" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</audio>
+			<clip oae-label="Instance Name(VPG)" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</clip>
+		</question>
+		<question oae-label="question 7">
+			<color oae-label="Color (from above)" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</color>
+			<audio oae-label="Question 7 Audio file" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</audio>
+			<clip oae-label="Instance Name(VPG)" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</clip>
+		</question>
+		<question oae-label="question 8">
+			<color oae-label="Color (from above)" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</color>
+			<audio oae-label="Question 8 Audio file" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</audio>
+			<clip oae-label="Instance Name(VPG)" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</clip>
+		</question>
+		<question oae-label="question 9">
+			<color oae-label="Color (from above)" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</color>
+			<audio oae-label="Question 9 Audio file" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</audio>
+			<clip oae-label="Instance Name(VPG)" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</clip>
+		</question>
+		<question oae-label="question 10">
+			<color oae-label="Color (from above)" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</color>
+			<audio oae-label="Question 10 Audio file" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</audio>
+			<clip oae-label="Instance Name(VPG)" oae-type="input" oae-rows="1">
+				<![CDATA[]]>
+			</clip>
+		</question>
+	</questions>
+</activity>

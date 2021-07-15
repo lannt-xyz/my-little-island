@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activity acttype="concentration" version="1.0" client="Longman" oae-label="ACTIVITY TYPE: Concentration">
+  <!-- Instructions: The instructions text appears in the drop-down help window. The instructions audio file should match the instructions text. -->
+  <instructions oae-label="Instructions text" oae-type="textarea" oae-rows="3"><![CDATA[<p>Look and listen. Match.</p>]]></instructions>
+  <!-- Level: Please select the level to indicate the color on the back of the cards. -->
+  <!-- Background Reward Image: This will be revealed as all of the cards are flipped. -->
+</activity>
